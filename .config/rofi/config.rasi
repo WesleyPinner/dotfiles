@@ -1,0 +1,7 @@
+configuration 
+{
+	modi: "drun,run,ssh,combi";
+	font: "FuraCode Nerd Font 12";
+	combi-modi: "drun,ssh,run";
+}
+@theme "nord"
