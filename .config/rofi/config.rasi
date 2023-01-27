@@ -1,0 +1,6 @@
+configuration {
+  modes: "combi";
+  combi-modes: "window,ssh,drun";
+  show-icons: true;  
+}
+@theme "~/.config/rofi/themes/arthur.rasi"

@@ -1,0 +1,46 @@
+{
+  "version": 3,
+  "hardware_profile": {
+    "graphics_id": "aac356671af5703f1a25e4680a056b80e03f53797dbfc702bb6a07c93b1c4768",
+    "gpu_vendor_id": 2,
+    "gpu_pci_id": "08:00.0",
+    "gpu_can_do_vulkan": true,
+    "provider_index": 0,
+    "provider_name": "NVIDIA-0",
+    "should_prime": false,
+    "use_mesa_gl_override": false,
+    "preferred_roblox_renderer_string": "Vulkan",
+    "is_multi_gpu": false,
+    "version": 2
+  },
+  "show_fast_flag_warning": false,
+  "release_channel": "master",
+  "disable_updates": false,
+  "try_profiling_hardware": true,
+  "default_wine_home": "/home/wesley/.local/share/grapejuice/user/wine-download/wine-tkg-staging-fsync-git-7.20.r1.gbd2608b1",
+  "wineprefixes": [
+    {
+      "id": "8ad2075b-ead2-4773-9f14-64a6cc8466b4",
+      "priority": 0,
+      "name_on_disk": "yues",
+      "display_name": "yues",
+      "wine_home": "/home/wesley/.local/share/grapejuice/user/wine-download/wine-tkg-staging-fsync-git-7.20.r1.gbd2608b1",
+      "dll_overrides": "dxdiagn=;winemenubuilder.exe=",
+      "prime_offload_sink": -1,
+      "use_mesa_gl_override": false,
+      "enable_winedebug": false,
+      "winedebug_string": "",
+      "roblox_renderer": "Vulkan",
+      "env": {},
+      "hints": [
+        "player"
+      ],
+      "fast_flags": {},
+      "third_party": {
+        "fps_unlocker": false,
+        "dxvk": false
+      }
+    }
+  ],
+  "unsupported_settings": {}
+}

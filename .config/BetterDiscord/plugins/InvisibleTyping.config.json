@@ -1,0 +1,9 @@
+{
+    "settings": {
+        "latestUsedVersion": "1.3.3",
+        "autoEnable": false,
+        "exclude": [
+            "999928480475123745"
+        ]
+    }
+}
