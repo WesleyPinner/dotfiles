@@ -1,0 +1,40 @@
+:root {
+    --spice-highlight-elevated: var(--spice-highlight-elevated);
+    --spice-tab-active: var(--spice-tab-active)333;
+    --spice-notification: var(--spice-notification);
+    --spice-subtext: var(--spice-subtext);
+    --spice-card: var(--spice-card);
+    --spice-button-disabled: var(--spice-button-disabled);
+    --spice-sidebar: var(--spice-sidebar)000;
+    --spice-selected-row: var(--spice-text)fff;
+    --spice-main-elevated: var(--spice-main-elevated);
+    --spice-button-active: var(--spice-button-active);
+    --spice-notification-error: var(--spice-notification-error);
+    --spice-text: var(--spice-text)fff;
+    --spice-shadow: var(--spice-sidebar)000;
+    --spice-misc: var(--spice-misc);
+    --spice-button: var(--spice-button);
+    --spice-player: var(--spice-player);
+    --spice-main: var(--spice-main);
+    --spice-highlight: var(--spice-highlight);
+
+    --spice-rgb-highlight-elevated: 42,42,42;
+    --spice-rgb-tab-active: 51,51,51;
+    --spice-rgb-notification: 70,135,214;
+    --spice-rgb-subtext: 179,179,179;
+    --spice-rgb-card: 40,40,40;
+    --spice-rgb-button-disabled: 83,83,83;
+    --spice-rgb-sidebar: 0,0,0;
+    --spice-rgb-selected-row: 255,255,255;
+    --spice-rgb-main-elevated: 36,36,36;
+    --spice-rgb-button-active: 30,215,96;
+    --spice-rgb-notification-error: 226,33,52;
+    --spice-rgb-text: 255,255,255;
+    --spice-rgb-shadow: 0,0,0;
+    --spice-rgb-misc: 127,127,127;
+    --spice-rgb-button: 29,185,84;
+    --spice-rgb-player: 24,24,24;
+    --spice-rgb-main: 18,18,18;
+    --spice-rgb-highlight: 26,26,26;
+
+}

@@ -1,0 +1,86 @@
+@import "mocha.css";
+
+* {
+    font-family: Iosevka Nerd Font;
+    font-size: 18px;
+}
+
+window#waybar {
+    background-color: transparent;
+    border-color: @surface1;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    color: @text;
+}
+
+#workspaces button:hover {
+  background-color: @base;
+  border: 2px solid @text;
+  text-shadow: none;
+  box-shadow: none;
+  transition: none;
+}
+
+
+#workspaces button {
+    padding: 4px 16px;
+    color: @text;
+    border: 2px solid @surface1;
+    border-radius: 16px;
+    background-color: @base;
+    margin: 4px 2px 4px 2px;
+}
+
+
+
+#workspaces button.active {
+  border: 2px solid @mauve;
+}
+
+#workspaces button.urgent {
+    border: 2px solid @red;
+}
+
+
+#window {
+  font-weight: bold;
+  background-color: @sapphire;
+  color: @base;
+  padding: 4px 10px;
+  margin: 4px 2px 4px 2px;
+  border-radius: 16px;
+}
+
+#mpris,#pulseaudio,#cpu,#memory,#disk,#tray,#clock {
+  padding: 4px 12px;
+  margin: 4px 2px 4px 2px;
+  border-radius: 16px;
+}
+
+#mpris,#pulseaudio {
+  background-color: @peach;
+  color: @base;
+}
+#mpris.stopped {
+  background-color: transparent;
+}
+
+#cpu {
+  background-color: @green;
+  color: @base;
+}
+#memory {
+  background-color: @yellow;
+  color: @base;
+}
+#disk {
+  background-color: @teal;
+  color: @base;
+}
+#tray {
+  background-color: @surface2;
+}
+#clock {
+  background-color: @text;
+  color: @base;
+}

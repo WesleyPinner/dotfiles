@@ -95,6 +95,7 @@ require('mason-lspconfig').setup({
   },
 })
 
+
 -- cmp
 local cmp = require('cmp')
 local cmp_format = require('lsp-zero').cmp_format({details = true})
